@@ -136,11 +136,13 @@ Recommended Learning Order
         v
 05. Automated Testing
 Filename note: Keep the database document named 04-database.md so the five documents have a unique, sequential numbering. If your current file is named 03-database.md, rename it to 04-database.md and keep 03-dependencies.md for dependencies and middleware.
+
 🔐 Security and Git Hygiene
 - Never commit .env files, database passwords, API keys, or other secrets.
 - Add .venv/, venv/, __pycache__/, and .pytest_cache/ to .gitignore.
 - Use environment variables for sensitive configuration.
 - Avoid using production credentials or production data in tests.
+- 
 ⚠️ Current Scope and Limitations
 This repository is a learning project. Its implemented behavior depends on the current source code.
 - Path and query parameter handling has been studied and practiced.
@@ -148,6 +150,7 @@ This repository is a learning project. Its implemented behavior depends on the c
 - PostgreSQL and SQLAlchemy concepts have been explored; verify the endpoint code before claiming that all CRUD operations are database-backed.
 - Automated tests should be rerun to confirm their current status.
 - Production deployment, authentication, and other advanced features should only be listed as implemented when they are actually present in the repository.
+- 
 🎓 Learning Outcomes
 This project is intended to build a practical understanding of:
 - How FastAPI routes and processes HTTP requests.
